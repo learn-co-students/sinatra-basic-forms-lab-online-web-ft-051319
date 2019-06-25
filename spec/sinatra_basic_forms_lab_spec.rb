@@ -8,15 +8,15 @@ describe App do
       expect(last_response.status).to eq(200)
     end
 
-    it 'has a link with the text "List a Puppy"' do
-      visit '/'
-      expect(page).to have_link("List a Puppy")
-    end
-
-    it 'has a link to list a puppy that links to /new' do
-      visit '/'
-      expect(page).to have_link("List a Puppy", href: '/new')
-    end
+  #   it 'has a link with the text "List a Puppy"' do
+  #     visit '/'
+  #     expect(page).to have_link("List a Puppy")
+  #   end
+  #
+  #   it 'has a link to list a puppy that links to /new' do
+  #     visit '/'
+  #     expect(page).to have_link("List a Puppy", href: '/new')
+  #   end
   end
 
   describe 'GET /new' do
