@@ -30,7 +30,7 @@ describe 'Puppy class' do
     expect(puppy.months_old).to eq(2)
   end
 
-  it 'can change puppy age in months (puppy#months_old=)' do 
+  it 'can change puppy age in months (puppy#months_old=)' do
     puppy.months_old = 3
     expect(puppy.months_old).to eq(3)
   end
