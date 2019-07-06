@@ -10,6 +10,7 @@ describe App do
 
     it 'has a link with the text "List a Puppy"' do
       visit '/'
+      # binding.pry
       expect(page).to have_link("List a Puppy")
     end
 
